@@ -115,7 +115,7 @@ int main() {
                 cout << "Enter the element to be deleted: ";
                 cin >> n;
                 if (sl.remove(n))
-                    cout << n << " removed.";
+                    cout << n << " removed.";lab3_skip_list.cpp
                 else
                     cout << n << " not found.";
                 break;
@@ -127,7 +127,7 @@ int main() {
                 else
                     cout << n << " not found.";
                 break;
-
+lab3_skip_list.cpp
             case 4:
                 cout << "The List is: " << endl;
                 sl.displayList();
